@@ -1,0 +1,39 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Shape Digital Build Tools",
+  "main": "gulpfile.js",
+  "author": "Sam Wells",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "autoprefixer": "latest",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "flickity": "^2.1.1",
+    "gsap": "^2.0.1",
+    "headroom.js": "^0.9.4",
+    "jquery": "^3.3.1",
+    "lazyload": "^2.0.0-beta.2",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "npm": "^6.1.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "scrollreveal": "^3.4.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vanilla-lazyload": "^10.17.0",
+    "bootstrap": "^4.3.1",
+    "greensock": "1.20.2",
+    "jquery-parallax.js": "^1.5.0"
+  }
+}

@@ -1,0 +1,40 @@
+// --------------------------------------------------
+// Some sensible defaults
+// --------------------------------------------------
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  background: $color-bg;
+  color: $color-text;
+  overflow-x: hidden;
+}
+
+header,
+main,
+section,
+footer {
+  width: 100%;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main{
+  overflow-x: hidden;
+}

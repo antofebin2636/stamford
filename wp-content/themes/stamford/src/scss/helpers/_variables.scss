@@ -1,0 +1,42 @@
+//$color-primary: lighten(black, 20);
+//$color-secondary: black;
+
+$color-primary : #002141;
+$color-secondary : #01C1D8;
+
+
+$color-bg: white;
+$color-text: lighten(black, 25);
+
+$color-input: #f6f6f6;
+
+$contrasted-dark-default: white;
+$contrasted-light-default: black;
+
+$container-width: 1200px;
+
+$breakpoint-small: 640px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+
+$breakpoint-limit: $container-width + 60px;
+
+$unit-xsmall: 1.5rem;
+$unit-small: 1.5rem;
+$unit-medium: 1.5rem;
+$unit-large: 2rem;
+$unit-xlarge: 2rem;
+
+$grid-column-gap-default: 1rem;
+$grid-row-gap-default: 1rem;
+
+/* Stamford */
+$theme-col: #01C1D8;
+
+$color-grey: #A0A8AA;
+$color-red: #A50A2C;
+$color-light: #436383;
+$color-dgrey: #7E7C80;
+
+$color-box-grey: #A0A8AA;

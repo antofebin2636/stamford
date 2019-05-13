@@ -1,0 +1,46 @@
+.input {
+  &:focus {
+    outline: none;
+  }
+  appearance: none;
+  font-size: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  border: 1px solid;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 0.5em;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @include contrasted(white);
+  &::-webkit-input-placeholder {
+    color: inherit;
+  }
+  &::-moz-placeholder {
+    color: inherit;
+  }
+  &:-ms-input-placeholder {
+    color: inherit;
+  }
+  &:-moz-placeholder {
+    color: inherit;
+  }
+  &::-moz-selection {
+    @include contrasted(white);
+  }
+  &::selection {
+    @include contrasted(white);
+  }
+
+  &:focus {
+    @include contrasted(white);
+  }
+  @include breakpoint(small) {
+    width: initial;
+  }
+}

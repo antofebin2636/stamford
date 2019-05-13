@@ -1,0 +1,36 @@
+body.menu{
+ .desktop-nav{
+   background: rgba(0, 33, 65, 0.9);
+   padding: 1em 0;
+ }
+  .main-logo{
+    img{
+      max-width: 75%;
+    }
+  }
+  .main-nav{
+    .main-nav-list{
+      left: 0px;
+    }
+  }
+
+  .burger{
+    span:nth-child(1){
+      transform: rotate(225deg);
+    }
+    span:nth-child(2), span:nth-child(3){
+      transform: rotate(135deg)
+    }
+    span{
+      top: 50% !important;
+    }
+  }
+
+  .hero-slider{
+    .flickity-page-dots{
+      z-index: 0;
+    }
+  }
+
+
+}

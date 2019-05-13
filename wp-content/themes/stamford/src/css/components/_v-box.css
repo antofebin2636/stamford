@@ -1,0 +1,7 @@
+.v-box {
+  background: #F4F5F5; }
+  .v-box .v-box-wrapper h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 80px; }

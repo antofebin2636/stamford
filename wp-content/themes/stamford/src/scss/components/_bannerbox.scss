@@ -1,0 +1,137 @@
+.banner-box{
+  //width: 28%;
+  position: absolute;
+  right: calc( 100vw - 90%);
+  bottom: -8%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  .box-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 46%);
+    background: #ffffff;
+    padding: 10px 10px 0 10px;
+    box-shadow:0px 13px 30px -11px #707070;
+    .single-grid{
+      width: 33.33%;
+      margin-bottom: 10px;
+      position: relative;
+      overflow: hidden;
+      .box-content{
+        position: absolute;
+        bottom: 0px;
+        background: #002141;
+        color: #ffffff;
+        width: 100%;
+        padding: 0.6em 1.5em;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+        .arrows{
+          text-align: right;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-right: 1em;
+          i{
+            position: relative;
+            transition: all 0.5s;
+            opacity: 0.6;
+          }
+          &:hover{
+            i{
+              opacity: 1;
+              animation: shimmy 0.5s 1;
+              animation-fill-mode: forwards;
+            }
+          }
+        }
+        .desc{
+          span{
+            line-height: 20px;
+          }
+          span.title{
+            display: block;
+            font-size: 20px;
+          }
+          span.age{
+            font-family: 'Open Sans', sans-serif;
+          }
+        }
+      }
+      img{
+        width: 100%;
+        display: block;
+        height: 100%;
+      }
+    }
+    .single-grid:nth-child(3n+2){
+          padding-left: 10px;
+        }
+    .single-grid:nth-child(3n+3){
+      padding-left: 10px;
+    }
+  }
+
+  .box-grid {
+    .single-grid {
+      &:nth-child(1) {
+        .box-content {
+          background: $color-primary;
+        }
+      }
+
+      &:nth-child(2) {
+        .box-content {
+          background: $color-grey;
+        }
+      }
+
+      &:nth-child(3) {
+        .box-content {
+          background: $color-secondary;
+        }
+      }
+
+      &:nth-child(4) {
+        .box-content {
+          background: $color-red;
+        }
+      }
+
+      &:nth-child(5) {
+        .box-content {
+          background: $color-light;
+        }
+      }
+
+      &:nth-child(6) {
+        .box-content {
+          background: $color-dgrey;
+        }
+      }
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1800px){
+  .banner-box{
+    right: calc(100vw  - 98%);
+    .box-grid{
+      width: calc(100% - 52%);
+    }
+  }
+}
+
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(20px);
+  }
+}

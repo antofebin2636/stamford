@@ -1,0 +1,70 @@
+.accredt-box{
+  padding: 7em 0px 5em;
+  position: relative;
+  .acc-title{
+    //position: relative;
+    h3{
+      font-size: 28px;
+      color: $color-red;
+      font-weight: 600;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        border-top: 1px solid $color-red;
+        top: 0;
+        width: 126px;
+        right: 100%;
+        top: 50%;
+        margin-right: 34px;
+      }
+    }
+    .title-lines{
+      border-top: 1px solid $color-red;
+      width: 8em;
+      top:57%;
+      position: absolute;
+    }
+  }
+
+  .accred-carousel{
+    padding: 3em 0 0;
+    .carousel-cell{
+      img{
+        margin: 0px auto;
+        max-width: 100%;
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accredt-box{
+    padding: 3em 0;
+
+    .acc-title{
+      h3:after{
+        margin-right: 10px;
+      }
+    }
+
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .accredt-box{
+    .acc-title{
+      h3{
+        padding-left: 1em;
+        font-size: 25px;
+        line-height: 28px;
+      &:after{
+        margin-right: -10px;
+      }
+      }
+    }
+  }
+}
