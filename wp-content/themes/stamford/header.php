@@ -42,7 +42,7 @@
 
                         <nav class="main-nav-list">
                             <ul class="list-inline parent-list">
-                                <?php wp_nav_menu( array( 'theme_location' => 'header_menu', 'items_wrap' => '%3$s', 'container' => '', 'depth' => 2)); ?>
+                                <?php wp_nav_menu( array( 'theme_location' => 'header_menu', 'items_wrap' => '%3$s', 'container' => '', 'depth' => 3)); ?>
                             </ul>
                         </nav>
                     </div>

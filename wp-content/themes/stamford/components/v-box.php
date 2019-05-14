@@ -3,7 +3,7 @@
     <div class="container position-relative clearfix">
         <img class="duck-img delay-up" src="<?php echo get_template_directory_uri() ?>/images/duck.png" alt="">
         <div class="v-box-wrapper">
-            <h3 class="title reveal--up">
+            <h3 class="title delay-up">
                 Where next?
             </h3>
         </div>
@@ -11,6 +11,7 @@
             <div class="v-float reveal--up">
                 <div class="v-float-desc">
                     <img src="<?php echo get_template_directory_uri()?>/images/b2.png" alt="" />
+                    <div class="v-border delay-up"></div>
                     <div class="v-desc-box delay-up">
                         <div class="v-desc">
                             <h4>About Stamford</h4>
